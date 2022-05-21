@@ -1,0 +1,25 @@
+.paginationUl {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2.5rem;
+}
+
+.paginationLi {
+    list-style: none;
+}
+
+.paginationA {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    line-height: 1rem;
+    background-color: #FD5D5D;
+    color: #fff;
+}
+.paginationA:hover {
+    color: #ffff;
+    background-color: #b92424;
+}
+.paginationAActive {
+    background-color: #b92424;
+}

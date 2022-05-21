@@ -1,0 +1,23 @@
+.animeInfoGrid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+}
+
+.animeInfoImg {
+    padding: 1.5rem;
+}
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .animeInfoGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .animeInfoTable {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+}
+

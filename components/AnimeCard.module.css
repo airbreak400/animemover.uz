@@ -1,0 +1,33 @@
+.animeCard {
+    width: calc(100% - 2rem);
+    background-color: #FF8080;
+    padding: 1rem;
+    margin: 1rem auto 1rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.animeCard > a {
+    white-space: wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.6rem;
+    background-color: #FF8080;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    opacity: 0.95;
+    transform: translateY(-100%);
+    transition: all .4s;
+}
+
+.animeCard:hover a {
+    transform: translateY(0);
+}

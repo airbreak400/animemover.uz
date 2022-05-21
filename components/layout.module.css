@@ -1,0 +1,31 @@
+.mainNav > ul {
+    display: flex!important;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.mainNav > ul > li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mainNav > ul > li > a {
+    display: inline-block;
+    padding: 2rem;
+    text-decoration: none;
+    color: #FD5D5D;
+}
+
+.mainNav > ul > li > a:hover {
+    background-color: #FD5D5D;
+    color: #fff;
+}
+.footer {
+    padding: 2rem;
+    background-color: #FD5D5D;
+    color: #fff;
+}
+.main {
+    padding: 2rem;
+}
