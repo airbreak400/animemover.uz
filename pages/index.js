@@ -49,12 +49,12 @@ export default function Home({fallback}) {
 }
 
 export async function getStaticProps() {
-  const animes =await fetch('http://localhost:5000/api/animes/').then(res => res.json());
+  const animes =await fetch('http://89.44.194.174:5000/api/animes/').then(res => res.json());
 
   return {
     props: {
       fallback: {
-        'http://localhost:5000/api/animes/': animes
+        'http://89.44.194.174:5000/api/animes/': animes
       }
     }
   }
