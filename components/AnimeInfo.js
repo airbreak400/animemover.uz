@@ -3,7 +3,7 @@ import styles from './AnimeInfo.module.css'
 const AnimeInfo = ({ anime }) => {
   return (
     <div className={styles.animeInfoGrid}>
-        <img alt={anime.title} className={styles.animeInfoImg} src={`http://89.44.194.174:5000/media/posters/${anime.poster}`} />
+        <img alt={anime.title} className={styles.animeInfoImg} src={`https://api.robloxers.ru/media/posters/${anime.poster}`} />
         <table className={styles.animeInfoTable}>
             <tbody>
             <tr>
