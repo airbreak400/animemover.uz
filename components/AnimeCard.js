@@ -1,4 +1,4 @@
-import styles from './Animecard.module.css';
+import styles from './AnimeCard.module.css';
 import Link from 'next/link';
 const AnimeCard = ({ title, link, img }) => {
   return (
